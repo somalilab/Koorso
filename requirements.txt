@@ -1,0 +1,5 @@
+python-telegram-bot>=20.0
+google-generativeai
+requests
+python-dotenv
+APScheduler>=3.10

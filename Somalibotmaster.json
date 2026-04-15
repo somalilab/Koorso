@@ -1,0 +1,140 @@
+{
+  "telegram_bot_config": {
+    "bot_name": "SomalibotMaster AI Assistant",
+    "bot_username": "@SomalibotMasterBot",
+    "version": "1.0",
+    "description": "Advanced Telegram Bot with Mini App integration and AI capabilities for content management and automation",
+    
+    "features": {
+      "content_management": {
+        "admin_required": true,
+        "schedule_posts": true,
+        "delete_scheduled_posts": true,
+        "multi_channel_selection": true,
+        "supported_media": ["images", "pdfs", "albums", "stickers", "GIFs", "audio", "voice_messages", "round_videos"],
+        "max_file_size": "5MB",
+        "preview_function": true,
+        "link_preview": true
+      },
+      
+      "multipost": {
+        "batch_creation": true,
+        "calendar_scheduling": true,
+        "instant_sending": true,
+        "protected_content": true
+      },
+      
+      "settings": {
+        "service_messages": {
+          "delete_management": true
+        },
+        "favorite_presets": true,
+        "default_reactions": true,
+        "button_sets": true,
+        "channel_management": {
+          "reorder_channels": true,
+          "pin_override": true,
+          "remove_channels": true
+        },
+        "attached_links": true,
+        "signature": true
+      },
+      
+      "welcome_system": {
+        "private_channels": true,
+        "approval_links": true,
+        "welcome_post": true,
+        "self_approval": true,
+        "captcha": true,
+        "force_join": true
+      },
+      
+      "post_management": {
+        "view_posts": true,
+        "edit_forwarded_posts": true,
+        "saved_posts": true
+      }
+    },
+
+    "ai_integration": {
+      "providers": ["gemini", "deepseek", "openrouter"],
+      "interaction_buttons": {
+        "👨‍💻 Talk Human": "connect_to_human",
+        "🤖 Talk Bot": "ai_chat_session",
+        "🛂 Contacts": "contact_info",
+        "❓ More Info": "additional_info",
+        "☘️ Ibara AI": "special_ai_feature"
+      },
+      
+      "human_support": {
+        "description": "Scientific inquiries to bot, limited queries due to token constraints",
+        "contact_methods": [
+          "Telegram: @Mfaratoon",
+          "Calendar: https://calendly.com/somaliboks"
+        ]
+      },
+      
+      "ai_chat": {
+        "provider": "gemini",
+        "features": ["emojis", "stickers", "entertainment"],
+        "daily_queries": "limited"
+      }
+    },
+
+    "contact_information": {
+      "telegram": "@Mfaratoon",
+      "facebook": "https://www.facebook.com/Mfaratoon1",
+      "classroom": "Telegram @Farsamada",
+      "email": "somalibotmaster@gmail.com",
+      "website": "Somalibotmaster.net",
+      "substack": "https://substack.com/chat/5784198",
+      "linkedin": "https://www.linkedin.com/company/28160517/admin/page-posts/published/"
+    },
+
+    "social_links": {
+      "youtube": "https://shorturl.at/auGJZ",
+      "facebook_page": "https://www.facebook.com/soomaalipodcast",
+      "messenger_channel": "https://www.messenger.com/channel/soomaalipodcast/Aba-uQI70rr-LJXY/",
+      "telegram_channel": "https://t.me/Farsamada",
+      "youtube_video": "https://www.youtube.com/watch?v=WnPT1WIZJM8&t=24s",
+      "whatsapp_community": "https://chat.whatsapp.com/DKWamfx4eHn6kR6EPfjNMX",
+      "arabic_channel": "https://t.me/somaliarabic",
+      "english_channel_1": "https://t.me/Somalienglish1",
+      "english_channel_2": "https://t.me/Somalienglish3",
+      "bots_learning": "https://t.me/+eJxxMKtunMcwODhk"
+    },
+
+    "technical_config": {
+      "mini_app_integration": true,
+      "web_app": true,
+      "api_integration": {
+        "mcp_server": true,
+        "ip_authentication": true
+      },
+      "bot_father_setup": {
+        "token_required": true,
+        "webhook_support": true,
+        "inline_mode": true
+      },
+      "programming_language": "Python/JavaScript",
+      "database": "MongoDB/PostgreSQL",
+      "hosting": "Heroku/AWS/DigitalOcean"
+    },
+
+    "implementation_steps": {
+      "phase_1": "Bot Father Setup & Basic Structure",
+      "phase_2": "Mini App Development",
+      "phase_3": "AI Integration (Gemini/DeepSeek)",
+      "phase_4": "Content Management Features",
+      "phase_5": "Multi-channel Support",
+      "phase_6": "Testing & Deployment"
+    },
+
+    "live_development_support": {
+      "mcp_required": true,
+      "real_time_collaboration": true,
+      "version_control": "Git",
+      "continuous_integration": true
+    }
+  }
+}

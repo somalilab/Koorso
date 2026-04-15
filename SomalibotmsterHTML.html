@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SomalibotMaster Mini App</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div style="padding: 20px;">
+        <h1>🤖 SomalibotMaster AI</h1>
+        <button onclick="talkToBot()">🤖 Talk to Bot</button>
+        <button onclick="showContacts()">🛂 Contacts</button>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        function talkToBot() {
+            document.getElementById('response').innerHTML = 
+                "<p>🔮 AI is thinking...</p>";
+        }
+        
+        function showContacts() {
+            document.getElementById('response').innerHTML = 
+                "<p>📞 Contact: @Mfaratoon</p>";
+        }
+    </script>
+</body>
+</html>
